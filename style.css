@@ -1,0 +1,37 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: azure;
+}
+hr {
+  border-color: brown;
+  border-width: 4px;
+  max-width: 75px;
+}
+.btn {
+  background-color: brown;
+  border-color: brown;
+}
+.row {
+  margin: 0px 110px;
+}
+.buffer {
+  height: 10rem;
+}
+.btn:hover {
+  background-color: rgb(231, 69, 69);
+  border-color: rgb(228, 70, 70);
+}
+.btn-primary {
+  border-radius: 4rem;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
